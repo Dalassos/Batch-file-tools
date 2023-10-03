@@ -21,7 +21,7 @@ set /a yearlyCopies=1
 rem -------------------------------- DO NOT MODIFY BELOW THIS LINE ------------------------------------------------
 
 rem set log file
-set logFile="xcopy_log.txt"
+set logFile="%~dp0\xcopy_log.txt"
 
 rem insert separator for new log entry + date & time
 echo ~~~~~~~~~~ New log entry ~~~~~~~~~~ > %logFile%
